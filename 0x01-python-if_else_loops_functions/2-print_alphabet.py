@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-for character in range(97, 123):
-    print("{:s}".format(chr(character)), end='')
-
+for char in range(26):
+    print("{:s}".format(chr(char + ord("a"))), end="")

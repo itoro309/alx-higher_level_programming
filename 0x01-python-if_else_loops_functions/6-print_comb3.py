@@ -1,15 +1,7 @@
 #!/usr/bin/python3
-for i in range(0, 100):
-    if i == 99:
-        print("99")
-    else:
-        print("{0:0=2d}, ".format(i), end='')
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
+for i in range(100):
+    if int(i / 10) != i % 10 and int(i / 10) < i % 10:
+        print("{}{}".format(int(i / 10), i % 10), end="")
+        if (i != 89):
+            print(", ", end="")
+print("")
