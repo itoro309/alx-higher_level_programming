@@ -1,4 +1,3 @@
-include <Python.h>
 #include <stdio.h>
 /**
  * print_pyhton_list-info - prints info from a pyhton list using Cpyhton
